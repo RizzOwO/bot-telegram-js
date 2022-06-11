@@ -1,19 +1,14 @@
 <div align="center">
-<img src="https://i.ibb.co/s3Lv9fN/thumb.png" width="150" height="150" border="0" alt="PFFP">
-</p>
+<img src="https://i.ibb.co/s3Lv9fN/thumb.png" width="150" height="150" border="0" alt="PFFP"></div></p>
 <p align="center">
 <a href="https://rizfurr.ml"><img title="TELEGRAM BOT" src="https://img.shields.io/badge/Base Bot Telegram-blue?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a><br>
 <a href="https://github.com/Rizky878"><img title="Author" src="https://img.shields.io/badge/Author-RizFurr-blue.svg?style=for-the-badge&logo=github"></a><br>
 <a href="https://github.com/RizzOwO/bot-telegram-js"><img src="https://img.shields.io/github/repo-size/RizzOwO/bot-telegram-js?style=for-the-badge&logo=github" alt="size" /></a><br>
-<a href="https://npmjs.com/package/telegraf"> <img src="https://img.shields.io/badge/Telegraf-v4.5.2-red.svg?style=for-the-badge&logo=npm&logoColor=blue" alt="version npm" /></a><br>
-</p>
-
-
+<a href="https://npmjs.com/package/telegraf"> <img src="https://img.shields.io/badge/Telegraf-v4.5.2-red.svg?style=for-the-badge&logo=npm&logoColor=blue" alt="version npm" /></a><br></p>
 
 # TELEGRAM BOT
 # Platform 
 ## Untuk Windows Instal Materi Tambahan Di Bawah Ini. Untuk Termux, cukup clone repo ini dan instal seperti contoh di bawah ini 
- 
  
 * [`Unduh Node JS`](https://nodejs.org/en/download/)
 * [`Download Git`](https://git-scm.com/download/win)
@@ -31,7 +26,7 @@ $ npm i -g
 ```
 
 ## Edit token bot
-get bot token at [`@BotFather`](http://t.me/BotFather).<br>
+get bot token at [`@BotFather`](http://t.me/BotFather)
 [`Edit Disini`](https://github.com/RizzOwO/bot-telegram-js/blob/json/config.json)
 ```js
 { 
