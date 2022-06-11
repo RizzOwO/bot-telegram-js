@@ -26,7 +26,7 @@ $ npm i -g
 ```
 
 ## Edit token bot
-Ambil Token Bot Di [`@BotFather`](http://t.me/BotFather) dan [`Edit Disini`](https://github.com/RizzOwO/bot-telegram-js/blob/json/config.json)
+Ambil Token Bot Di [`@BotFather`](http://t.me/BotFather) dan [`Edit Disini`](https://github.com/RizzOwO/bot-telegram-js/blob/main/json/config.json)
 ```js
 { 
    "BotToken" : "TOKEN BOT" //Ganti Dengan Token Bot Telegram Mu!
