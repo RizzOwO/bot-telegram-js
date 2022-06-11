@@ -169,6 +169,7 @@ if (position !== null) {
 _dir.splice(getPosition(ban, _dir[position].id), 1)}
 }, 1000)
 }
+
 bot.action('info', ctx =>{
 if(cekStatus(ctx.update.callback_query.from.id, ban)) return
 ctx.deleteMessage()
@@ -192,9 +193,10 @@ resize_keyboard: true
 }
 })
 })
+
 bot.hears('Creator', ctx => {
 if(cekStatus(ctx.message.from.id, ban)) return
-bot.telegram.sendMessage(ctx.chat.id, 'Bot ini dibuat oleh @Rizky9788 / Rizky Fadilah',{
+bot.telegram.sendMessage(ctx.chat.id, 'Bot ini dibuat oleh @RizFurr / Rizky Pondasi',{
 reply_markup: {
 inline_keyboard:[
 [
@@ -218,6 +220,7 @@ inline_keyboard:[
 parse_mode: "Markdown"
  })
 });
+
 bot.hears('Hilangkan keyboard', ctx => {
 if(cekStatus(ctx.message.from.id, ban)) return
 bot.telegram.sendMessage(ctx.chat.id, "Keyboard dihilangkan", 
@@ -227,6 +230,7 @@ remove_keyboard: true
 }
 })
 })
+
 bot.action('afk',(ctx) => {
 if(cekStatus(ctx.update.callback_query.from.id, ban)) return
 ctx.deleteMessage()
@@ -249,6 +253,7 @@ console.log('@'+pushname(ctx.from).username)
 ini_txt = "Anda telah afk. \nJika ada yang tag kamu bot akan memberitahukan bahwa kamu off\nJika ingin kembali dari afk ketik hai di sini"
 ctx.reply(ini_txt)
 })
+
 bot.action('ping', (ctx) => {
 ctx.deleteMessage()
 const tmenu = `
@@ -272,6 +277,7 @@ inline_keyboard:[
 parse_mode: "Markdown"
  })
 })
+
 bot.action('pinterest', ctx => {
 if(cekStatus(ctx.update.callback_query.from.id, ban)) return
 ctx.deleteMessage()
@@ -288,6 +294,7 @@ parse_mode: "Markdown",
 disable_web_page_preview: "true" 
 })
 })
+
 bot.action('ytmp3', ctx => {
 if(cekStatus(ctx.update.callback_query.from.id, ban)) return
 ctx.deleteMessage()
@@ -304,6 +311,7 @@ parse_mode: "Markdown",
 disable_web_page_preview: "true" 
 })
 })
+
 bot.action('ytmp4', ctx => {
 if(cekStatus(ctx.update.callback_query.from.id, ban)) return
 ctx.deleteMessage()
@@ -320,6 +328,7 @@ parse_mode: "Markdown",
 disable_web_page_preview: "true" 
 })
 })
+
 bot.action('ytsearch', ctx => {
 if(cekStatus(ctx.update.callback_query.from.id, ban)) return
 ctx.deleteMessage()
@@ -336,41 +345,49 @@ parse_mode: "Markdown",
 disable_web_page_preview: "true" 
 })
 })
+
 bot.action('downloadermenu', ctx => {
 if(cekStatus(ctx.update.callback_query.from.id, ban)) return
 ctx.deleteMessage()
  sendText(bot,ctx,`${univ} Downloader Menu\n\n`+downloadermenu)
 })
+
 bot.action('nsfwmenu', ctx => {
 if(cekStatus(ctx.update.callback_query.from.id, ban)) return
 ctx.deleteMessage()
  sendText(bot,ctx,`${univ} Nsfw Menu\n\n`+nsfwmenu)
 })
+
 bot.action('funmenu', ctx => {
 if(cekStatus(ctx.update.callback_query.from.id, ban)) return
 ctx.deleteMessage()
  sendText(bot,ctx,`${univ} Fun Menu\n\n`+funmenu)
 })
+
 bot.action('searchmenu', ctx => {
 if(cekStatus(ctx.update.callback_query.from.id, ban)) return
 ctx.deleteMessage()
  sendText(bot,ctx,`${univ} Search Menu\n\n`+searchmenu)
 })
+
 bot.action('randomenu', ctx => {
 if(cekStatus(ctx.update.callback_query.from.id, ban)) return
 ctx.deleteMessage()
  sendText(bot,ctx,`${univ} Random Menu\n\n${randommenu}`)
 })
+
 bot.action('groupmenu', ctx => {
 if(cekStatus(ctx.update.callback_query.from.id, ban)) return
 ctx.deleteMessage()
 sendText(bot,ctx,`${univ} Group Menu\n\n`+groupmenu)
 })
+
 bot.action('adminmenu', ctx => {
 if(cekStatus(ctx.update.callback_query.from.id, ban)) return
 ctx.deleteMessage()
 sendText(bot,ctx,`${univ} Admin Menu\n\n`+adminmenu)
 })
+
 bot.action('loli', async(ctx) => {
 if(cekStatus(ctx.update.callback_query.from.id, ban)) return
 ctx.deleteMessage()
@@ -381,8 +398,8 @@ url: paq.url,
 filename: 'kitten.jpg'
 },{caption: 'Pedo yh bg 🤨📸'})
 })
-bot.action('rizky', ctx => {
 
+bot.action('rizfurr', ctx => {
 if(cekStatus(ctx.update.callback_query.from.id, ban)) return
 ctx.deleteMessage()
 bot.telegram.sendMessage(ctx.chat.id, config.ownerusername+' itu ownerku',
@@ -397,8 +414,8 @@ inline_keyboard: [
 parse_mode: "Markdown",
 disable_web_page_preview: "true" 
 })
- 
 })
+
 bot.action('yt3', async(iky) =>{
 if(cekStatus(ctx.update.callback_query.from.id, ban)) return
 iky.deleteMessage()
@@ -425,10 +442,12 @@ iky.replyWithChatAction("upload_audio")
 console.log(e)
 }
 })
+
 bot.action('donasi', (ctx) =>{
 if(cekStatus(ctx.update.callback_query.from.id, ban)) return
 sendDonation(bot,ctx)
 })
+
 bot.action('yt4', (iky) =>{
 if(cekStatus(ctx.update.callback_query.from.id, ban)) return
 iky.deleteMessage()
@@ -453,41 +472,34 @@ iky.replyWithChatAction("upload_video")
 console.log(e)
 }
 })
-bot.action('start', async(ctx) =>{
 
+bot.action('start', async(ctx) =>{
 if(cekStatus(ctx.update.callback_query.from.id, ban)) return
 sendStart(bot,ctx)
 })
-bot.action('quotes', async(ctx) =>{
 
-if(cekStatus(ctx.update.callback_query.from.id, ban)) return
-ctx.deleteMessage()
-sendsearch(bot,ctx)
-buff = await toJson('https://api.rzkyfdlh.tech/randomtext/quotes')
-bot.telegram.sendMessage(ctx.chat.id, buff.result.quotes+'\n\nBy: '+buff.result.author,{reply_markup: {inline_keyboard: [[{text: 'Get Again', callback_data: 'quotes'}]]},parse_mode: "Markdown",disable_web_page_preview: "true" })
-})
 bot.action(['help','menu'], (ctx) =>{
 if(cekStatus(ctx.update.callback_query.from.id, ban)) return
 sendHelp(bot,ctx)
 })
-bot.action('simioff', (ctx) =>{
 
+bot.action('simioff', (ctx) =>{
 if(cekStatus(ctx.update.callback_query.from.id, ban)) return
 ctx.deleteMessage()
 sendText(bot,ctx ,'/simioff <mematikan fitur simsimi>\n/simion <menghidupkan mode simsimi>')
 })
-bot.start(async(ctx) => {
 
+bot.start(async(ctx) => {
 if(cekStatus(ctx.message.from.id, ban)) return
 sendStart(bot,ctx)
 })
-bot.help((ctx) => {
 
+bot.help((ctx) => {
 if(cekStatus(ctx.message.from.id, ban)) return
 sendHelp(bot,ctx)
 })
-bot.action('star', async(iky) => {
 
+bot.action('star', async(iky) => {
 if(cekStatus(iky.update.callback_query.from.id, ban)) return
 iky.deleteMessage()
 if (iky.chat.type.includes("group")) return bot.telegram.sendMessage(iky.chat.id,`Perintah Ini hanya Bisa Digunakan Chat Pribadi!`)
