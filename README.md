@@ -39,7 +39,7 @@ $ npm start
 ```
 
 # Demo 
-* [`RizzBot`](https://t.me/RizzBot)
+* [`Ikkibot`](https://t.me/ikyhqbot)
 
 ## Note:
 * You can request a case in my [`WhatsApp`](http://wa.me/62895335475457).
