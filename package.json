@@ -9,18 +9,18 @@
   "keywords": [
     "bot-tele"
   ],
-  "author": "Rizky Fadilah",
+  "author": "RizFurr",
   "license": "ISC",
   "dependencies": {
     "@vitalets/google-translate-api": "^7.0.0",
     "cfonts": "^2.9.3",
     "chalk": "^4.1.1",
-"g-i-s" : "latest",
-"ms" : "latest",
+    "g-i-s" : "latest",
+    "ms" : "latest",
     "moment-timezone": "^0.5.33",
     "nekos.life": "^2.0.7",
-"delay" : "latest",
-"util" : "latest",
+    "delay" : "latest",
+    "util" : "latest",
     "nodemon": "^2.0.7",
     "performance-now": "^2.1.0",
     "pino": "^6.13.4",
