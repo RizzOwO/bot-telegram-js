@@ -5,7 +5,6 @@
 <a href="https://rizfurr.ml"><img title="TELEGRAM BOT" src="https://img.shields.io/badge/Base Bot Telegram-yellow?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a><br>
 <a href="https://github.com/Rizky878"><img title="Author" src="https://img.shields.io/badge/Author-Rzky%20Fdlh-red.svg?style=for-the-badge&logo=github"></a><br>
 <a href="https://github.com/Rizky878/bot-tele"><img src="https://img.shields.io/github/repo-size/Rizky878/bot-tele?style=for-the-badge&logo=github" alt="size" /></a><br>
-<a href="https://github.com/RizzOwO/bot-telegram-js/watchers"> <img src="https://img.shields.io/github/watchers/RizzOwO/bot-telegram-js?logo=github&style=for-the-badge" alt="Watch" /></a><br>
 <a href="https://npmjs.com/package/telegraf"> <img src="https://img.shields.io/badge/Telegraf-v4.5.2-red.svg?style=for-the-badge&logo=npm&logoColor=yellow" alt="version npm" /></a><br>
 </p>
 
@@ -15,7 +14,6 @@
 # Platform 
 ## Untuk Windows Instal Materi Tambahan Di Bawah Ini. Untuk Termux, cukup clone repo ini dan instal seperti contoh di bawah ini 
  
-
 * [`Unduh Node JS`](https://nodejs.org/en/download/)
 * [`Download Git`](https://git-scm.com/download/win)
 
