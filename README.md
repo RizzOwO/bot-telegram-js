@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://i.ibb.co/MNxRrGn/pp-gh.png" width="150" height="150" border="0" alt="PFFP">
+<img src="https://i.ibb.co/s3Lv9fN/thumb.png" width="150" height="150" border="0" alt="PFFP">
 </p>
 <p align="center">
 <a href="https://rizfurr.ml"><img title="TELEGRAM BOT" src="https://img.shields.io/badge/Base Bot Telegram-blue?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a><br>
@@ -26,13 +26,13 @@
 
 ## Install the package
 ```cmd
-> npm i -g
+$ npm i -g
 ```
 
 ## Edit token bot
 get bot token at [`@BotFather`](http://t.me/BotFather).<br>
 [`Edit Disini`](https://github.com/RizzOwO/bot-telegram-js/blob/json/config.json)
-```json
+```js
 { 
    "BotToken" : "TOKEN BOT" //Ganti Dengan Token Bot Telegram Mu!
 }
@@ -40,7 +40,7 @@ get bot token at [`@BotFather`](http://t.me/BotFather).<br>
 
 ## Run the bot
 ```cmd
-> npm start
+$ npm start
 ```
 
 # Demo 
@@ -58,6 +58,6 @@ get bot token at [`@BotFather`](http://t.me/BotFather).<br>
 * [`Manxtodd`](https://github.com/Manxtodd)
 
 # Donate
-* [`Pulsa`](6285364937006) (Telkomsel)
+* [`Pulsa`](6285364937006) Telkomsel
 
 
