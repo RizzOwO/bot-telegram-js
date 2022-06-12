@@ -7,6 +7,7 @@ const speed = require(`performance-now`);
 const RA = require('ra-api')
 const chalk = require('chalk')
 const spin = require('spinnies')
+const rizz = require("rizfurr-api");
 const { promisify } = require('util')
 const _gis = require('g-i-s')
 const gis = promisify(_gis)
@@ -696,7 +697,7 @@ bot.telegram.pinChatMessage(from,iky.message.reply_to_message.message_id)
 reply2(monoscape(`Sukses Pin pesan`))
 break
 case '>':
-if(!isOwner) return 
+/*if(!isOwner) return */
 iky.reply('Excuting '+qe)
 await delay(3000)
 try {
