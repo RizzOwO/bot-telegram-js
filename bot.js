@@ -939,7 +939,7 @@ sendText(bot,iky,message)
 sendProses(bot,iky)
 if(!isUrl(qe) && !qe.includes('instag')) return sendText(bot,iky,'Link Invalid')
 try {
-const insta = await toJson(`https://api.rzkyfdlh.tech/downloader/igdl?link=${qe}`)
+const insta = await calip.downloader.instagram.post(`${qe}`)
 for (let i of insta) {
 if(i.includes('jpg')) {
 iky.replyWithChatAction("upload_photo")
@@ -954,7 +954,7 @@ sendVideo(iky,i,Date.now()+'.mp4',`Sukses`)
 sendText(bot,iky,`Download Selesai`)
 }
 }catch(e){
-const insta = await toJson(`https://api.rzkyfdlh.tech/downloader/igdl?link=${qe}`)
+const insta = await calip.downloader.instagram.post(`${qe}`)
 console.log(e+'\n\n\n'+require ('util').format(insta))
 sendText(bot,iky,`Error/Link Invalid`)
 }
