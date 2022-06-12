@@ -197,7 +197,7 @@ resize_keyboard: true
 
 bot.hears('Creator', ctx => {
 if(cekStatus(ctx.message.from.id, ban)) return
-bot.telegram.sendMessage(ctx.chat.id, 'Bot ini dibuat oleh @RizFurr / Rizky Pondasi',{
+bot.telegram.sendMessage(ctx.chat.id, 'Bot ini dibuat oleh @RizFurr ',{
 reply_markup: {
 inline_keyboard:[
 [
@@ -210,7 +210,7 @@ parse_mode: "Markdown"
 });
 bot.hears('Source', ctx => {	
 if(cekStatus(ctx.message.from.id, ban)) return
-bot.telegram.sendMessage(ctx.chat.id,'Source: https://github.com/Rizky878/bot-tele',{
+bot.telegram.sendMessage(ctx.chat.id,'Source: https://github.com/RizzOwO/bot-telegram-js',{
 reply_markup: {
 inline_keyboard:[
 [
@@ -696,9 +696,9 @@ if(!isQuoted) return reply(`reply pesan yang ingin dipin`)
 bot.telegram.pinChatMessage(from,iky.message.reply_to_message.message_id)
 reply2(monoscape(`Sukses Pin pesan`))
 break
-case '>':
+case 'exe':
 /*if(!isOwner) return */
-iky.reply('Excuting '+qe)
+iky.reply('Excuting')
 await delay(3000)
 try {
 iky.reply(util.format(await eval(`;(async () => { ${args.join(' ')} })()`)))
