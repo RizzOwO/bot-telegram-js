@@ -697,7 +697,7 @@ bot.telegram.pinChatMessage(from,iky.message.reply_to_message.message_id)
 reply2(monoscape(`Sukses Pin pesan`))
 break
 case 'exe':
-/*if(!isOwner) return */
+if(!isOwner) return
 iky.reply('Excuting')
 await delay(3000)
 try {
